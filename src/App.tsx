@@ -20,7 +20,7 @@ function App() {
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<null | string>(null);
-  // added comment
+
   const fetchWeatherData = async (cityName: string) => {
     setLoading(true);
     try {
